@@ -4,13 +4,13 @@
  */
 
 var annualLeave = 30
-var BobRemainingDays = 12
-var AliceRemainingDays = 28
-var TomRemainingDays = 19
-var average = your_answer
+var BobRD = 12
+var AliceRD = 28
+var TomRD = 19
+var average = (3*annualLeave-BobRD-AliceRD-TomRD)/3
 
 exports.average = average
 exports.annualLeave = annualLeave
-exports.BobRemainingDays = BobRemainingDays
-exports.AliceRemainingDays = AliceRemainingDays
-exports.TomRemainingDays = TomRemainingDays
+exports.BobRD = BobRD
+exports.AliceRD = AliceRD
+exports.TomRD = TomRD
